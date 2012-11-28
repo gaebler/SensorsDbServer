@@ -1,0 +1,11 @@
+Tue Nov 27 23:00:20 BRST 2012 : Apache Derby Servidor de Rede - 10.8.1.2 - (1095077) iniciado e pronto para aceitar conex›es na porta 1527 em {3}
+----------------------------------------------------------------
+Tue Nov 27 23:00:27 BRST 2012:
+ Inicializando o Derby vers‹o The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): inst‰ncia a816c00e-013b-4487-5e2e-00006c71a4c9
+no diret—rio de banco de dados /Users/guilherme/NetBeansProjects/SensorsDB  
+
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_37-b06-434-11M3909
+user.dir=/Applications/NetBeans/glassfish-3.1.2.2/javadb
+derby.system.home=/Users/guilherme/NetBeansProjects
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
