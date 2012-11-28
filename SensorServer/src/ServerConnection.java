@@ -53,10 +53,10 @@ public class ServerConnection extends Thread {
             Connection con = DriverManager.getConnection(host, user, pass);
             Statement stmt = con.createStatement();
 
-            
+
 
             for (int k = 2; k < 6; k++) {
-                
+
                 java.util.Date today = new java.util.Date();
                 java.sql.Timestamp ts = new java.sql.Timestamp(today.getTime());
 
@@ -77,13 +77,11 @@ public class ServerConnection extends Thread {
 
                 System.out.println(sqlStmt);
                 stmt.executeUpdate(sqlStmt);
-//                Thread.sleep(1);
             }
+
             stmt.close();
             con.close();
-            
-//        } catch (InterruptedException ex) {
-//            Logger.getLogger(ServerConnection.class.getName()).log(Level.SEVERE, null, ex);
+
         } catch (SQLException err) {
             System.out.println(err.getMessage());
         }
